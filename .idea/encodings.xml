@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/console/MainMenu.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/controller/BookingController.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/controller/FlightController.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/controller/UserController.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/dao/BookingDao.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/dao/Dao.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/dao/FlightDao.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/dao/UserDao.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/logger/CustomFormatter.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/logger/CustomLogger.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/service/BookingService.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/service/FlightService.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/BookingApp/service/UserService.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/console/CustomMenu.java" charset="windows-1251" />
+  </component>
+</project>
