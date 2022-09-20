@@ -13,9 +13,9 @@ public class BookingController {
     private final BookingService bookingService = new BookingService(FilePath.bookingFile);
 
     public boolean makeBooking(Booking booking, User user) {
-        if (user.getBookings().isEmpty()) {
+        if (user.getBookings().isEmpty()){
             booking.setId(1);
-        } else
+        }else
             booking.setId(user.getBookings().size() + 1);
 
         return bookingService.makeBooking(booking);

@@ -2,6 +2,7 @@ package BookingApp;
 
 import BookingApp.console.CustomConsole;
 import BookingApp.controller.FlightController;
+import BookingApp.controller.GeneratorController;
 import BookingApp.view.VisitorMenu;
 
 public class Main {

@@ -17,7 +17,7 @@ public class FlightService {
         this.flightDao = new FlightDao(new File(pathname));
     }
 
-    public void generateFlight() {
+    public void generateFlight(){
         if (getAllFlights().isEmpty()) {
             saveAll(GeneratorController.generator(300));
         }
