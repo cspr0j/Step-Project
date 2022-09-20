@@ -1,0 +1,530 @@
+20/09/2022 14:15:10 [ERROR] CustomLogger : File not found
+20/09/2022 14:15:10 [ERROR] CustomLogger : File not found
+20/09/2022 14:15:10 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 14:16:27 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 14:16:27 [INFO] CustomLogger : The seats capacity decreased for J2703 flight.
+20/09/2022 14:16:27 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 14:16:27 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 14:18:55 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 14:19:57 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 14:19:57 [INFO] CustomLogger : The seats capacity decreased for J2703 flight.
+20/09/2022 14:19:57 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 14:19:57 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 14:20:15 [INFO] CustomLogger : The seats capacity increased for J2703 flight.
+20/09/2022 14:20:16 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 14:20:16 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 14:37:32 [INFO] CustomLogger : The seats capacity increased for J2703 flight.
+20/09/2022 14:37:32 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 14:37:32 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 15:18:45 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 15:18:45 [INFO] CustomLogger : The seats capacity decreased for J2703 flight.
+20/09/2022 15:18:45 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 15:18:45 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 15:18:56 [ERROR] CustomLogger : For input string: "james"
+20/09/2022 15:22:20 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 15:22:20 [INFO] CustomLogger : The seats capacity decreased for J2703 flight.
+20/09/2022 15:22:20 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 15:22:20 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 15:23:04 [INFO] CustomLogger : The seats capacity increased for J2703 flight.
+20/09/2022 15:23:04 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 15:23:04 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 15:24:15 [ERROR] CustomLogger : Booking not found
+20/09/2022 15:24:15 [ERROR] CustomLogger : No value present
+20/09/2022 15:46:08 [ERROR] CustomLogger : File not found
+20/09/2022 15:46:08 [INFO] CustomLogger : A list of flights saved to the database.
+20/09/2022 15:46:08 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 15:46:09 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 15:49:05 [ERROR] CustomLogger : File not found
+20/09/2022 15:49:05 [ERROR] CustomLogger : File not found
+20/09/2022 15:49:05 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 15:49:42 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 15:49:42 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 15:49:42 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 15:49:42 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 15:50:27 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 15:51:03 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 15:51:03 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 15:51:03 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 15:51:03 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 15:51:10 [INFO] CustomLogger : The seats capacity increased for LH551 flight.
+20/09/2022 15:51:10 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 15:51:10 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 15:52:28 [ERROR] CustomLogger : File not found
+20/09/2022 15:52:28 [ERROR] CustomLogger : File not found
+20/09/2022 15:52:28 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 15:53:14 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 15:53:15 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 15:53:15 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 15:53:15 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 15:53:50 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 15:55:08 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 15:55:08 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 15:55:08 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 15:55:08 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 15:55:11 [INFO] CustomLogger : The seats capacity increased for LH551 flight.
+20/09/2022 15:55:11 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:09:01 [ERROR] CustomLogger : For input string: "james"
+20/09/2022 17:09:38 [INFO] CustomLogger : The seats capacity increased for LH551 flight.
+20/09/2022 17:09:38 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:11:17 [ERROR] CustomLogger : File not found
+20/09/2022 17:11:17 [ERROR] CustomLogger : Booking not found
+20/09/2022 17:11:17 [ERROR] CustomLogger : File not found
+20/09/2022 17:11:17 [ERROR] CustomLogger : No value present
+20/09/2022 17:11:17 [ERROR] CustomLogger : File not found
+20/09/2022 17:11:25 [ERROR] CustomLogger : File not found
+20/09/2022 17:11:25 [ERROR] CustomLogger : Booking not found
+20/09/2022 17:11:25 [ERROR] CustomLogger : File not found
+20/09/2022 17:11:25 [ERROR] CustomLogger : No value present
+20/09/2022 17:11:25 [ERROR] CustomLogger : File not found
+20/09/2022 17:11:57 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 17:12:13 [ERROR] CustomLogger : File not found
+20/09/2022 17:12:13 [ERROR] CustomLogger : File not found
+20/09/2022 17:12:13 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:13:18 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 17:13:18 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 17:13:18 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 17:13:18 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:13:31 [INFO] CustomLogger : The seats capacity increased for LH551 flight.
+20/09/2022 17:13:31 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:13:31 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 17:14:56 [ERROR] CustomLogger : No value present
+20/09/2022 17:15:23 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 17:15:23 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 17:15:23 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 17:15:23 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:23:14 [ERROR] CustomLogger : File not found
+20/09/2022 17:23:14 [ERROR] CustomLogger : File not found
+20/09/2022 17:23:14 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:23:52 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 17:23:52 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 17:23:52 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 17:23:52 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:24:01 [INFO] CustomLogger : The seats capacity increased for LH551 flight.
+20/09/2022 17:24:01 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:24:01 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 17:28:23 [ERROR] CustomLogger : File not found
+20/09/2022 17:28:23 [ERROR] CustomLogger : File not found
+20/09/2022 17:28:23 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:31:33 [ERROR] CustomLogger : File not found
+20/09/2022 17:31:33 [ERROR] CustomLogger : File not found
+20/09/2022 17:31:33 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:32:07 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 17:32:07 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 17:32:07 [ERROR] CustomLogger : File not found
+20/09/2022 17:32:07 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 17:32:07 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:32:32 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:34:13 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 17:34:13 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 17:34:13 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 17:34:14 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:34:25 [INFO] CustomLogger : The seats capacity increased for LH551 flight.
+20/09/2022 17:37:03 [INFO] CustomLogger : The seats capacity increased for LH551 flight.
+20/09/2022 17:37:03 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:37:03 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 17:37:48 [INFO] CustomLogger : The seats capacity increased for LH551 flight.
+20/09/2022 17:37:48 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:37:48 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 17:38:44 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 17:38:44 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 17:38:44 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 17:38:44 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:43:00 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 17:43:00 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 17:43:00 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 17:43:00 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:43:44 [INFO] CustomLogger : The seats capacity increased for LH551 flight.
+20/09/2022 17:43:44 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:43:44 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 17:46:43 [ERROR] CustomLogger : File not found
+20/09/2022 17:46:43 [ERROR] CustomLogger : File not found
+20/09/2022 17:46:43 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:47:23 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 17:47:23 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 17:47:24 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 17:47:24 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:48:23 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:49:13 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 17:49:13 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 17:49:13 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 17:49:13 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:49:20 [INFO] CustomLogger : The seats capacity increased for LH551 flight.
+20/09/2022 17:49:20 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:49:20 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 17:49:55 [INFO] CustomLogger : The seats capacity increased for LH551 flight.
+20/09/2022 17:49:55 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:49:55 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 17:56:00 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 17:56:00 [INFO] CustomLogger : The seats capacity decreased for LH551 flight.
+20/09/2022 17:56:00 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 17:56:00 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:56:10 [INFO] CustomLogger : The seats capacity increased for LH551 flight.
+20/09/2022 17:56:10 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:56:10 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 17:59:21 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 17:59:21 [INFO] CustomLogger : The seats capacity decreased for AF118 flight.
+20/09/2022 17:59:21 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 17:59:21 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 17:59:31 [ERROR] CustomLogger : For input string: "james"
+20/09/2022 17:59:36 [ERROR] CustomLogger : Login or password is incorrect.
+20/09/2022 18:00:14 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 18:00:14 [INFO] CustomLogger : The seats capacity decreased for AF118 flight.
+20/09/2022 18:00:14 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 18:00:14 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:39:04 [ERROR] CustomLogger : File not found
+20/09/2022 20:39:04 [ERROR] CustomLogger : File not found
+20/09/2022 20:39:04 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:39:07 [ERROR] CustomLogger : File not found
+20/09/2022 20:39:20 [ERROR] CustomLogger : File not found
+20/09/2022 20:39:21 [INFO] CustomLogger : A list of flights saved to the database.
+20/09/2022 20:39:21 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 20:39:21 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 20:39:21 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 20:39:21 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 20:39:21 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 20:39:21 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 20:39:21 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 20:39:27 [ERROR] CustomLogger : File not found
+20/09/2022 20:39:27 [ERROR] CustomLogger : File not found
+20/09/2022 20:39:27 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:40:03 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 20:40:03 [INFO] CustomLogger : The seats capacity decreased for CA266 flight.
+20/09/2022 20:40:03 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 20:40:03 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:40:19 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:41:00 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 20:41:00 [INFO] CustomLogger : The seats capacity decreased for BA507 flight.
+20/09/2022 20:41:00 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 20:41:00 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:44:24 [ERROR] CustomLogger : File not found
+20/09/2022 20:44:24 [INFO] CustomLogger : A list of flights saved to the database.
+20/09/2022 20:44:25 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 20:44:25 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 20:44:25 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 20:44:25 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 20:44:25 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 20:44:32 [ERROR] CustomLogger : File not found
+20/09/2022 20:44:32 [ERROR] CustomLogger : File not found
+20/09/2022 20:44:32 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:45:12 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 20:45:12 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 20:45:12 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 20:45:12 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:45:29 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:46:11 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 20:46:11 [INFO] CustomLogger : The seats capacity decreased for SU146 flight.
+20/09/2022 20:46:11 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 20:46:11 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:46:21 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 20:46:21 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:46:21 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 20:46:28 [ERROR] CustomLogger : For input string: ""
+20/09/2022 20:47:15 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 20:47:15 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:47:15 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 20:48:54 [ERROR] CustomLogger : User with this username already exists! Please try again with another username
+20/09/2022 20:49:48 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 20:49:48 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 20:49:48 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 20:49:48 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:50:28 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 20:50:28 [INFO] CustomLogger : The seats capacity decreased for SU146 flight.
+20/09/2022 20:50:28 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 20:50:28 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 20:51:02 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 20:54:01 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 20:54:01 [ERROR] CustomLogger : Index 0 out of bounds for length 0
+20/09/2022 20:54:05 [INFO] CustomLogger : The seats capacity increased for SU146 flight.
+20/09/2022 20:54:05 [ERROR] CustomLogger : Index 1 out of bounds for length 0
+20/09/2022 20:54:18 [ERROR] CustomLogger : Booking not found
+20/09/2022 20:54:18 [ERROR] CustomLogger : No value present
+20/09/2022 20:58:41 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:01:06 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:01:06 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:01:09 [ERROR] CustomLogger : null
+20/09/2022 21:01:14 [ERROR] CustomLogger : null
+20/09/2022 21:01:17 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:01:17 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:01:23 [ERROR] CustomLogger : null
+20/09/2022 21:01:48 [ERROR] CustomLogger : null
+20/09/2022 21:01:50 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:01:50 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:01:50 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:02:03 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:02:03 [ERROR] CustomLogger : No value present
+20/09/2022 21:02:03 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:05:53 [ERROR] CustomLogger : Text '01/01/200' could not be parsed at index 6
+20/09/2022 21:06:32 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:06:32 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 21:06:32 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:06:32 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:06:41 [INFO] CustomLogger : The seats capacity increased for SU146 flight.
+20/09/2022 21:06:41 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:06:41 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:06:46 [INFO] CustomLogger : The seats capacity increased for SU146 flight.
+20/09/2022 21:07:05 [ERROR] CustomLogger : File not found
+20/09/2022 21:07:05 [ERROR] CustomLogger : File not found
+20/09/2022 21:07:05 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:07:36 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:07:36 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 21:07:36 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:07:36 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:08:08 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:08:08 [INFO] CustomLogger : The seats capacity decreased for SU146 flight.
+20/09/2022 21:08:08 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:08:08 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:09:50 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:09:50 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:09:50 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:09:58 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:09:58 [ERROR] CustomLogger : No value present
+20/09/2022 21:09:58 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:15:06 [INFO] CustomLogger : The seats capacity increased for SU146 flight.
+20/09/2022 21:15:32 [ERROR] CustomLogger : File not found
+20/09/2022 21:15:32 [ERROR] CustomLogger : File not found
+20/09/2022 21:15:33 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:16:09 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:16:09 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 21:16:09 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:16:09 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:17:34 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:17:34 [INFO] CustomLogger : The seats capacity decreased for SU146 flight.
+20/09/2022 21:17:34 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:17:34 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:18:13 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:19:58 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:19:58 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:19:58 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:20:06 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:20:06 [ERROR] CustomLogger : No value present
+20/09/2022 21:20:06 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:20:15 [INFO] CustomLogger : The seats capacity increased for SU146 flight.
+20/09/2022 21:21:39 [ERROR] CustomLogger : File not found
+20/09/2022 21:21:39 [ERROR] CustomLogger : File not found
+20/09/2022 21:21:39 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:23:14 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:23:15 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 21:23:15 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:23:15 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:23:59 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:23:59 [INFO] CustomLogger : The seats capacity decreased for SU146 flight.
+20/09/2022 21:23:59 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:23:59 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:24:07 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:24:07 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:24:07 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:24:13 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:24:13 [ERROR] CustomLogger : No value present
+20/09/2022 21:24:13 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:25:01 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:25:01 [ERROR] CustomLogger : No value present
+20/09/2022 21:25:01 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:25:34 [INFO] CustomLogger : The seats capacity increased for SU146 flight.
+20/09/2022 21:26:22 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:26:22 [ERROR] CustomLogger : No value present
+20/09/2022 21:26:22 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:27:24 [ERROR] CustomLogger : File not found
+20/09/2022 21:27:24 [ERROR] CustomLogger : Login or password is incorrect.
+20/09/2022 21:27:36 [ERROR] CustomLogger : File not found
+20/09/2022 21:27:36 [ERROR] CustomLogger : File not found
+20/09/2022 21:27:36 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:28:19 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:28:19 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 21:28:19 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:28:19 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:28:51 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:28:51 [INFO] CustomLogger : The seats capacity decreased for SU146 flight.
+20/09/2022 21:28:51 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:28:51 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:28:58 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:28:58 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:28:58 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:29:43 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:29:43 [ERROR] CustomLogger : No value present
+20/09/2022 21:29:43 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:31:23 [ERROR] CustomLogger : File not found
+20/09/2022 21:31:23 [ERROR] CustomLogger : File not found
+20/09/2022 21:31:23 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:32:18 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:32:18 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 21:32:18 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:32:18 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:32:53 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:32:53 [INFO] CustomLogger : The seats capacity decreased for SU146 flight.
+20/09/2022 21:32:53 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:32:53 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:32:59 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:32:59 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:32:59 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:32:59 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:33:09 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:33:09 [ERROR] CustomLogger : No value present
+20/09/2022 21:33:09 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:34:10 [ERROR] CustomLogger : File not found
+20/09/2022 21:34:10 [ERROR] CustomLogger : File not found
+20/09/2022 21:34:10 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:34:45 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:34:45 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 21:34:45 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:34:45 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:35:12 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:35:12 [INFO] CustomLogger : The seats capacity decreased for SU146 flight.
+20/09/2022 21:35:12 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:35:12 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:35:18 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:35:18 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:35:18 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:35:18 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:35:24 [INFO] CustomLogger : The seats capacity increased for SU146 flight.
+20/09/2022 21:35:24 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:35:24 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:35:24 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:36:41 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:36:41 [ERROR] CustomLogger : No value present
+20/09/2022 21:36:41 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:36:47 [INFO] CustomLogger : The seats capacity increased for SU146 flight.
+20/09/2022 21:36:47 [ERROR] CustomLogger : Booking not found
+20/09/2022 21:38:29 [ERROR] CustomLogger : File not found
+20/09/2022 21:38:29 [ERROR] CustomLogger : Login or password is incorrect.
+20/09/2022 21:38:41 [ERROR] CustomLogger : File not found
+20/09/2022 21:38:41 [ERROR] CustomLogger : File not found
+20/09/2022 21:38:41 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:39:16 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:39:16 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 21:39:16 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:39:16 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:39:44 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:39:44 [INFO] CustomLogger : The seats capacity decreased for SU146 flight.
+20/09/2022 21:39:44 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:39:44 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:39:52 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:39:52 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:39:52 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:39:52 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:40:33 [ERROR] CustomLogger : File not found
+20/09/2022 21:40:33 [ERROR] CustomLogger : File not found
+20/09/2022 21:40:33 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:41:06 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:41:06 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 21:41:06 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:41:06 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:41:46 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:41:46 [INFO] CustomLogger : The seats capacity decreased for SU146 flight.
+20/09/2022 21:41:46 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:41:46 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:41:56 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:41:56 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:41:57 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:41:57 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:42:11 [INFO] CustomLogger : The seats capacity increased for SU146 flight.
+20/09/2022 21:42:11 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:42:11 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:42:48 [ERROR] CustomLogger : File not found
+20/09/2022 21:42:48 [ERROR] CustomLogger : Login or password is incorrect.
+20/09/2022 21:42:56 [ERROR] CustomLogger : File not found
+20/09/2022 21:42:56 [ERROR] CustomLogger : File not found
+20/09/2022 21:42:56 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:43:39 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:43:39 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 21:43:39 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:43:39 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:43:50 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:44:29 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:44:29 [INFO] CustomLogger : The seats capacity decreased for SU146 flight.
+20/09/2022 21:44:30 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:44:30 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:44:36 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:44:37 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:44:37 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:46:01 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:46:01 [INFO] CustomLogger : The seats capacity decreased for AF765 flight.
+20/09/2022 21:46:01 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:46:01 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:46:50 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:46:50 [INFO] CustomLogger : The seats capacity decreased for J2580 flight.
+20/09/2022 21:46:50 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:46:50 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:47:13 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:47:13 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:47:13 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:47:13 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:48:24 [INFO] CustomLogger : The seats capacity increased for AF765 flight.
+20/09/2022 21:48:24 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:48:24 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:48:24 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:48:29 [ERROR] CustomLogger : For input string: ""
+20/09/2022 21:48:35 [INFO] CustomLogger : The seats capacity increased for J2580 flight.
+20/09/2022 21:48:35 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:48:35 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:50:09 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:50:09 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:50:09 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:50:09 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:50:09 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:50:09 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:50:10 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:50:20 [INFO] CustomLogger : A list of flights saved to the database.
+20/09/2022 21:50:20 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:50:20 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:50:20 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:50:20 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:50:21 [INFO] CustomLogger : A list of flights saved to the database.
+20/09/2022 21:50:30 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:50:30 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:50:30 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:53:50 [ERROR] CustomLogger : File not found
+20/09/2022 21:53:50 [INFO] CustomLogger : A list of flights saved to the database.
+20/09/2022 21:53:50 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:53:50 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:53:51 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:53:51 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:53:51 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:53:51 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:53:51 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:53:51 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:53:51 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:53:51 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:53:51 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:53:51 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:54:40 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:54:40 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:54:40 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:58:02 [ERROR] CustomLogger : File not found
+20/09/2022 21:58:02 [INFO] CustomLogger : A list of flights saved to the database.
+20/09/2022 21:58:02 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:58:03 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:58:03 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:58:03 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 21:58:44 [ERROR] CustomLogger : File not found
+20/09/2022 21:58:44 [ERROR] CustomLogger : File not found
+20/09/2022 21:58:44 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:59:23 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 21:59:23 [INFO] CustomLogger : The seats capacity decreased for TK621 flight.
+20/09/2022 21:59:23 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 21:59:23 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 21:59:33 [INFO] CustomLogger : The seats capacity increased for TK621 flight.
+20/09/2022 21:59:33 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 21:59:33 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 22:00:23 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 22:00:23 [INFO] CustomLogger : The seats capacity decreased for TK621 flight.
+20/09/2022 22:00:23 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 22:00:23 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 22:00:29 [INFO] CustomLogger : The seats capacity increased for TK621 flight.
+20/09/2022 22:00:29 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 22:00:29 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 22:00:51 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 22:00:52 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 22:00:52 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 22:00:52 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 22:00:52 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 22:00:52 [INFO] CustomLogger : A booking saved or updated to the database.
+20/09/2022 22:00:52 [INFO] CustomLogger : A booking removed from the database.
+20/09/2022 22:01:06 [INFO] CustomLogger : A list of flights saved to the database.
+20/09/2022 22:01:06 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 22:01:06 [INFO] CustomLogger : A flight removed from the database.
+20/09/2022 22:01:06 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 22:01:06 [INFO] CustomLogger : A flight saved or updated to the database.
+20/09/2022 22:01:06 [INFO] CustomLogger : A list of flights saved to the database.
+20/09/2022 22:01:18 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 22:01:18 [INFO] CustomLogger : A user saved or updated to the database.
+20/09/2022 22:01:18 [INFO] CustomLogger : A user saved or updated to the database.
