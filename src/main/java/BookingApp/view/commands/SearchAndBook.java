@@ -1,27 +1,29 @@
-package BookingApp.console;
+package BookingApp.view.commands;
 
+import BookingApp.console.Console;
 import BookingApp.controller.BookingController;
 import BookingApp.controller.FlightController;
 import BookingApp.controller.UserController;
-import BookingApp.entities.Booking;
-import BookingApp.entities.Flight;
-import BookingApp.entities.Passenger;
-import BookingApp.entities.User;
 import BookingApp.exceptions.TicketsOverFlowException;
 import BookingApp.logger.CustomLogger;
+import BookingApp.model.Booking;
+import BookingApp.model.Flight;
+import BookingApp.model.Passenger;
+import BookingApp.model.User;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
 import static BookingApp.utils.InputChecker.correctIntegerInput;
 
 public class SearchAndBook {
-    public static void run(Console console, User user){
-        while(true) {
+    public static void run(Console console, User user) {
+        while (true) {
             try {
                 UserController userController = new UserController();
                 FlightController flightController = new FlightController();
@@ -75,22 +77,22 @@ public class SearchAndBook {
                     i++;
                 }
 
-                if(flightController.get(designator).isPresent() &&
+                if (flightController.get(designator).isPresent() &&
                         flightController.get(designator).get().getSeats() < tickets)
                     throw new TicketsOverFlowException("There is not enough seats for this flight");
 
                 flightController.decreaseSeatsCapacity(designator, tickets);
                 Booking booking = new Booking(flightController.get(designator).get(), passengers);
 
-                bookingController.doBooking(booking);
-                userController.addBookingToTheUser(user.getId(), booking);
+                bookingController.makeBooking(booking, user);
+                userController.addBookingToTheUser(user, booking);
 
                 console.println("Successfully booked.");
                 break;
             } catch (DateTimeParseException e) {
                 console.println("Please, provide date in a format of \"dd/MM/yyyy\".");
                 CustomLogger.error(e.getMessage());
-            } catch (TicketsOverFlowException e){
+            } catch (TicketsOverFlowException | NoSuchElementException e) {
                 console.println(e.getMessage());
                 CustomLogger.error(e.getMessage());
             }

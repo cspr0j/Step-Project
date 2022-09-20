@@ -1,9 +1,10 @@
-package BookingApp.console;
+package BookingApp.view.commands;
 
+import BookingApp.console.Console;
 import BookingApp.controller.UserController;
-import BookingApp.entities.User;
 import BookingApp.exceptions.BookingNotFoundException;
 import BookingApp.logger.CustomLogger;
+import BookingApp.model.User;
 
 public class BookingInfo {
     public static void run(Console console, User user) {
@@ -13,7 +14,6 @@ public class BookingInfo {
             if (userController.getUser(user.getId()).isEmpty()) {
                 throw new BookingNotFoundException("Booking not found");
             }
-
             userController.getUser(user.getId()).get().getBookings()
                     .forEach(booking -> console.println(booking.toString()));
         } catch (BookingNotFoundException e) {

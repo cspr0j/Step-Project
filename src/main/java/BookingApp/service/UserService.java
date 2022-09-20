@@ -1,7 +1,7 @@
 package BookingApp.service;
 
 import BookingApp.dao.UserDao;
-import BookingApp.entities.User;
+import BookingApp.model.User;
 
 import java.io.File;
 import java.util.List;
@@ -14,15 +14,15 @@ public class UserService {
         this.userDao = new UserDao(new File(fileName));
     }
 
-    public List<User> getAllUsers(){
+    public List<User> getAllUsers() {
         return userDao.readFromFile();
     }
 
-    public boolean save(User user){
+    public boolean save(User user) {
         return userDao.save(user);
     }
 
-    public Optional<User> get(int id){
+    public Optional<User> get(int id) {
         return userDao.getById(id);
     }
 }

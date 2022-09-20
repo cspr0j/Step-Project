@@ -1,11 +1,11 @@
 package BookingApp.dao;
 
-import BookingApp.entities.User;
+import BookingApp.model.User;
 
 import java.io.File;
 import java.util.Optional;
 
-public class UserDao extends BaseDao<User>{
+public class UserDao extends BaseDao<User> {
 
     public UserDao(File file) {
         super(file);

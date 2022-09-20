@@ -1,8 +1,8 @@
 package BookingApp.utils;
 
-import BookingApp.entities.Airline;
-import BookingApp.entities.Airport;
-import BookingApp.entities.Flight;
+import BookingApp.model.Airline;
+import BookingApp.model.Airport;
+import BookingApp.model.Flight;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -68,8 +68,8 @@ public class RandomFlightGenerator {
             } while (from.equals(to));
             departure = dateTimeGenerator(30);
             arrival_time = departure
-                                .plusHours(ThreadLocalRandom.current().nextInt(2, 16))
-                                .plusMinutes(ThreadLocalRandom.current().nextInt(45));
+                    .plusHours(ThreadLocalRandom.current().nextInt(2, 16))
+                    .plusMinutes(ThreadLocalRandom.current().nextInt(45));
 
             list.add(new Flight(i, designator, airline, seats, from, to, departure, arrival_time));
         }

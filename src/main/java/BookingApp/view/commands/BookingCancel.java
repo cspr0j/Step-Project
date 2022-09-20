@@ -1,8 +1,9 @@
-package BookingApp.console;
+package BookingApp.view.commands;
 
+import BookingApp.console.Console;
 import BookingApp.controller.FlightController;
 import BookingApp.controller.UserController;
-import BookingApp.entities.User;
+import BookingApp.model.User;
 
 import static BookingApp.utils.InputChecker.correctIntegerInput;
 
@@ -15,6 +16,6 @@ public class BookingCancel {
         FlightController flightController = new FlightController();
 
         flightController.increaseSeatsCapacity(id);
-        console.println(userController.removeBookingFromUser(id, user.getId()));
+        console.println(userController.removeBookingFromUser(id, user));
     }
 }

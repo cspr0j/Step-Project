@@ -1,4 +1,4 @@
-package BookingApp.entities;
+package BookingApp.model;
 
 import java.io.Serializable;
 import java.time.format.DateTimeFormatter;
@@ -10,8 +10,8 @@ public class Booking implements Serializable {
     private static final long serialVersionUID = -1262767543938157655L;
 
     private static int counter = 0;
-    private final int id;
     private final Flight flight;
+    private int id;
     private List<Passenger> passengers;
 
 
@@ -27,10 +27,6 @@ public class Booking implements Serializable {
         this.passengers = passengers;
     }
 
-    public void setPassengers(List<Passenger> passengers) {
-        this.passengers = passengers;
-    }
-
     public Flight getFlight() {
         return flight;
     }
@@ -39,8 +35,16 @@ public class Booking implements Serializable {
         return passengers;
     }
 
+    public void setPassengers(List<Passenger> passengers) {
+        this.passengers = passengers;
+    }
+
     public int getId() {
         return this.id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Override
@@ -48,8 +52,7 @@ public class Booking implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Booking booking = (Booking) o;
-        return id == booking.id
-                && Objects.equals(flight, booking.flight)
+        return Objects.equals(flight, booking.flight)
                 && Objects.equals(passengers, booking.passengers);
     }
 
@@ -63,13 +66,15 @@ public class Booking implements Serializable {
         return String.format(
                 "Ticket ID: %d \n" +
                         "Airline Designator: %s \n" +
+                        "To: %s \n" +
                         "Departure Time: %s \n" +
                         "Arrival Time: %s \n" +
                         "Passengers: %s \n",
                 id,
+                flight.getDesignator(),
+                flight.getAirportTo(),
                 flight.getDeparture().format(DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss")),
                 flight.getArrival_time().format(DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss")),
-                flight.getDesignator(),
                 passengers);
     }
 }

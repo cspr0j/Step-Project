@@ -1,4 +1,4 @@
-import BookingApp.entities.User;
+import BookingApp.model.User;
 import BookingApp.service.UserService;
 import org.junit.jupiter.api.Test;
 
@@ -7,8 +7,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class UserDAOTest {
     private final UserService userService = new UserService(FilePath.usersFile);
-//    private final File f = new File(FilePath.usersFile);
-
     User user1 = new User("jalal", "Qwerty1");
 
     @Test
@@ -17,7 +15,7 @@ public class UserDAOTest {
     }
 
     @Test
-    void getFlight() {
+    void get() {
         userService.save(user1);
         assertEquals(user1, userService.get(user1.getId()).orElse(null));
     }
@@ -65,7 +63,7 @@ public class UserDAOTest {
 
 
     @Test
-    void hashCodeTests() {
+    void hashcode() {
         User user2 = new User("jalal", "Qwerty1");
         // internal consistency:
         // calling the hashCode method one or more times over the same object

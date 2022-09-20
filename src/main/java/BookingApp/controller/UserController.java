@@ -1,7 +1,9 @@
 package BookingApp.controller;
 
-import BookingApp.entities.Booking;
-import BookingApp.entities.User;
+import BookingApp.exceptions.BookingNotFoundException;
+import BookingApp.logger.CustomLogger;
+import BookingApp.model.Booking;
+import BookingApp.model.User;
 import BookingApp.service.BookingService;
 import BookingApp.service.UserService;
 
@@ -22,9 +24,9 @@ public class UserController {
 
     public boolean saveUser(User user) {
         getAllUsers().stream()
-                .filter(myUser -> myUser.getId() == user.getId())
+                .filter(myUser -> myUser.getId() == user.getId() && !myUser.equals(user))
                 .forEach(myUser -> {
-                    user.setId(user.getId() + 1);
+                    user.setId(getAllUsers().size() + 1);
                 });
         return userService.save(user);
     }
@@ -33,12 +35,11 @@ public class UserController {
         return userService.get(id);
     }
 
-    public boolean addBookingToTheUser(int userId, Booking booking) {
+    public boolean addBookingToTheUser(User user, Booking booking) {
 
-        if (getUser(userId).isEmpty()) {
+        if (user == null) {
             return false;
         }
-        User user = getUser(userId).get();
         List<Booking> bookings = user.getBookings();
 
         bookings.add(booking);
@@ -48,21 +49,37 @@ public class UserController {
     }
 
 
-    public String removeBookingFromUser(int bookingId, int userId) {
-        if (getUser(userId).isEmpty() || bookingService.get(bookingId).isEmpty()) {
-            return "No such item found.";
-        }
+    public String removeBookingFromUser(int bookingId, User user) {
+        try {
+            if (user == null || bookingService.get(bookingId).isEmpty()) {
+                throw new BookingNotFoundException("Booking not found");
+            }
 
-        User user = getUser(userId).get();
-        List<Booking> bookings = user.getBookings();
+            List<Booking> bookings = user.getBookings();
 
-        bookings.remove(bookingService.get(bookingId).get());
-        user.setBookings(bookings);
+            if (bookings.isEmpty())
+                throw new BookingNotFoundException("Booking not found");
 
-        saveUser(user);
-        if (bookingService.delete(bookingId))
+
+            Booking booking = bookings.get(bookingId - 1);
+
+            bookings.remove(booking);
+            if (!bookingService.deleteByObject(booking)) {
+                throw new BookingNotFoundException("Booking not found");
+            }
+
+            bookings.stream()
+                    .filter(booking1 -> booking1.getId() > 1 && bookingId == 1)
+                    .forEach(myBooking -> {
+                        myBooking.setId(myBooking.getId() - 1);
+                    });
+            user.setBookings(bookings);
+            saveUser(user);
+
             return "Booking cancelled.";
-        else
-            return "Booking not found.";
+        } catch (BookingNotFoundException e) {
+            CustomLogger.error(e.getMessage());
+            return e.getMessage();
+        }
     }
 }

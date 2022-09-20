@@ -1,4 +1,4 @@
-package BookingApp.entities;
+package BookingApp.model;
 
 import java.io.Serializable;
 import java.util.Objects;

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class BaseDao<T> implements Dao<T>{
+public class BaseDao<T> implements Dao<T> {
     private final File file;
 
     public BaseDao(File file) {
@@ -39,7 +39,7 @@ public class BaseDao<T> implements Dao<T>{
     }
 
     @Override
-    public Optional<T> get(T t){
+    public Optional<T> get(T t) {
         return readFromFile()
                 .stream()
                 .filter(t1 -> t1.equals(t))

@@ -1,9 +1,10 @@
-package BookingApp.console;
+package BookingApp.view.commands;
 
+import BookingApp.console.Console;
 import BookingApp.controller.UserController;
-import BookingApp.entities.User;
 import BookingApp.exceptions.UserExistsException;
 import BookingApp.logger.CustomLogger;
+import BookingApp.model.User;
 import BookingApp.utils.Validator;
 
 public class Register {
@@ -15,7 +16,10 @@ public class Register {
             do {
                 console.print("Please, enter username (at least 4 character): ");
                 username = console.scanNextLine();
+
+                if (username.equalsIgnoreCase("exit")) return;
             } while (username.length() < 4);
+
 
             String password;
             String regex = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,30}$";
@@ -23,7 +27,10 @@ public class Register {
                 console.print("Please, enter password (The password must consist of at least 8 characters," +
                         " and must include 1 digit, 1 uppercase and lowercase character): ");
                 password = console.scanNextLine();
+
+                if (password.equalsIgnoreCase("exit")) return;
             } while (!Validator.passwordChecker(password, regex));
+//            if (password.equalsIgnoreCase("exit")) break;
 
             try {
                 User user = new User(username, password);

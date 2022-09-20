@@ -1,11 +1,10 @@
 package BookingApp.controller;
 
-import BookingApp.entities.Flight;
 import BookingApp.logger.CustomLogger;
+import BookingApp.model.Flight;
 import BookingApp.service.BookingService;
 import BookingApp.service.FlightService;
 
-import java.time.LocalDateTime;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
@@ -24,6 +23,10 @@ public class FlightController {
 
     public void saveAllFlights(List<Flight> data) {
         flightService.saveAll(data);
+    }
+
+    public void generateFlights() {
+        flightService.generateFlight();
     }
 
     public Optional<Flight> get(String airlineCode) {
@@ -53,15 +56,8 @@ public class FlightController {
             int seats = bookingService.get(bookingId).get().getPassengers().size();
             flight.setSeats(flight.getSeats() + seats);
             CustomLogger.info(String.format("The seats capacity increased for %s flight.", flight.getDesignator().toUpperCase()));
-        } catch (NoSuchElementException e){
+        } catch (NoSuchElementException e) {
             CustomLogger.error(e.getMessage());
         }
-    }
-
-    public void removeExpiredFlight() {
-        flightService.getAllFlights()
-                .stream()
-                .filter(flight -> LocalDateTime.now().isAfter(flight.getDeparture()))
-                .forEach(flightService::delete);
     }
 }

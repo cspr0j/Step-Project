@@ -1,4 +1,10 @@
-package BookingApp.console;
+package BookingApp.view;
+
+import BookingApp.console.Console;
+import BookingApp.view.commands.FlightInfo;
+import BookingApp.view.commands.FlightsInfoTable;
+import BookingApp.view.commands.Login;
+import BookingApp.view.commands.Register;
 
 import static BookingApp.utils.InputChecker.correctIntegerInput;
 

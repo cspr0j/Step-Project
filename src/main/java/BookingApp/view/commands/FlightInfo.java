@@ -1,5 +1,6 @@
-package BookingApp.console;
+package BookingApp.view.commands;
 
+import BookingApp.console.Console;
 import BookingApp.controller.FlightController;
 import BookingApp.logger.CustomLogger;
 

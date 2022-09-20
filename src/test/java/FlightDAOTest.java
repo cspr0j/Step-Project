@@ -1,6 +1,6 @@
-import BookingApp.entities.Airline;
-import BookingApp.entities.Airport;
-import BookingApp.entities.Flight;
+import BookingApp.model.Airline;
+import BookingApp.model.Airport;
+import BookingApp.model.Flight;
 import BookingApp.service.FlightService;
 import BookingApp.utils.RandomFlightGenerator;
 import org.junit.jupiter.api.Test;
@@ -35,6 +35,7 @@ public class FlightDAOTest {
         if (deleteFile() || !f.exists()) {
             flightService.save(flight1);
         }
+        System.out.println(flightService.get(flight1.getId()).orElse(null));
         assertEquals(flight1, flightService.get(flight1.getId()).orElse(null));
     }
 
@@ -47,6 +48,9 @@ public class FlightDAOTest {
     @Test
     void getAll() {
         flightService.saveAll(flights);
+        for (Flight flight : flightService.getAllFlights()) {
+            System.out.println(flight);
+        }
         assertEquals(flights, flightService.getAllFlights());
     }
 
@@ -123,7 +127,7 @@ public class FlightDAOTest {
     }
 
 
-    boolean deleteFile(){
+    boolean deleteFile() {
         return f.delete();
     }
 }

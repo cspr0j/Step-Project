@@ -1,4 +1,4 @@
-package BookingApp.entities;
+package BookingApp.model;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -9,15 +9,14 @@ public class Flight implements Serializable {
 
     private static final long serialVersionUID = 6088204406177476281L;
     private static int counter = 0;
-    private int id;
     private final String designator;
     private final Airline airline;
-    private int seats;
     private final Airport airportFrom;
     private final Airport airportTo;
     private final LocalDateTime departure;
-
     private final LocalDateTime arrival_time;
+    private int id;
+    private int seats;
 
     public Flight(String designator,
                   Airline airline,
@@ -58,6 +57,10 @@ public class Flight implements Serializable {
         return id;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getDesignator() {
         return designator;
     }
@@ -68,6 +71,10 @@ public class Flight implements Serializable {
 
     public int getSeats() {
         return seats;
+    }
+
+    public void setSeats(int seats) {
+        this.seats = seats;
     }
 
     public Airport getAirportFrom() {
@@ -84,14 +91,6 @@ public class Flight implements Serializable {
 
     public LocalDateTime getArrival_time() {
         return arrival_time;
-    }
-
-    public void setSeats(int seats) {
-        this.seats = seats;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     @Override

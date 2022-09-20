@@ -1,6 +1,8 @@
-package BookingApp.console;
+package BookingApp.view;
 
-import BookingApp.entities.User;
+import BookingApp.console.Console;
+import BookingApp.model.User;
+import BookingApp.view.commands.*;
 
 import static BookingApp.utils.InputChecker.correctIntegerInput;
 

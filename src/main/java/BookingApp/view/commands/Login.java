@@ -1,9 +1,11 @@
-package BookingApp.console;
+package BookingApp.view.commands;
 
+import BookingApp.console.Console;
 import BookingApp.controller.UserController;
-import BookingApp.entities.User;
 import BookingApp.exceptions.UserNotFoundException;
 import BookingApp.logger.CustomLogger;
+import BookingApp.model.User;
+import BookingApp.view.MainMenu;
 
 import java.util.Optional;
 

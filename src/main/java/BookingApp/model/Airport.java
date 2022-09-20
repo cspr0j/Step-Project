@@ -1,4 +1,4 @@
-package BookingApp.entities;
+package BookingApp.model;
 
 public enum Airport {
     AMSTERDAM("NL"),

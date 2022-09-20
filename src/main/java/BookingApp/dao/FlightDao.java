@@ -1,6 +1,6 @@
 package BookingApp.dao;
 
-import BookingApp.entities.Flight;
+import BookingApp.model.Flight;
 
 import java.io.File;
 import java.util.Optional;

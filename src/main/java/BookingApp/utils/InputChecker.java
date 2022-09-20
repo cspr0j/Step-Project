@@ -29,7 +29,7 @@ public class InputChecker {
 
                 throw new NumberFormatException();
 
-                } catch (NumberFormatException e) {
+            } catch (NumberFormatException e) {
                 console.println("Wrong input. Please, try again");
                 CustomLogger.error(e.getMessage());
             }

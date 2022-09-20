@@ -1,4 +1,4 @@
-package BookingApp.entities;
+package BookingApp.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -15,6 +15,7 @@ public class User implements Serializable {
     private int id;
 
     private List<Booking> bookings;
+
     public User(String username, String password) {
         this.id = ++counter;
         this.username = username;
@@ -38,8 +39,12 @@ public class User implements Serializable {
     }
 
     public List<Booking> getBookings() {
-        if(bookings == null) return new ArrayList<>();
+        if (bookings == null) return new ArrayList<>();
         return bookings;
+    }
+
+    public void setBookings(List<Booking> bookings) {
+        this.bookings = bookings;
     }
 
     @Override
@@ -47,11 +52,7 @@ public class User implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
-        return Objects.equals(username, user.username);
-    }
-
-    public void setBookings(List<Booking> bookings) {
-        this.bookings = bookings;
+        return username.equals(user.username) && password.equals(user.password);
     }
 
     @Override

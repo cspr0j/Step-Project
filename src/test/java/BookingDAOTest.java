@@ -1,4 +1,4 @@
-import BookingApp.entities.*;
+import BookingApp.model.*;
 import BookingApp.service.BookingService;
 import org.junit.jupiter.api.Test;
 
@@ -6,6 +6,7 @@ import java.io.File;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -33,7 +34,12 @@ public class BookingDAOTest {
         if (deleteFile() || !f.exists()) {
             bookingService.makeBooking(b1);
         }
-        assertEquals(b1, bookingService.get(b1.getId()).orElse(null));
+        Optional<Booking> optionalBooking = bookingService.get(b1.getId());
+        Booking b2 = null;
+        if (optionalBooking.isPresent()) {
+            b2 = optionalBooking.get();
+        }
+        assertEquals(b1, b2);
     }
 
     @Test
@@ -41,7 +47,7 @@ public class BookingDAOTest {
         if (deleteFile() || !f.exists()) {
             bookingService.makeBooking(b1);
         }
-        bookingService.delete(b1);
+        bookingService.deleteByObject(b1);
         assertEquals(new ArrayList<>(), bookingService.getAll());
     }
 
@@ -50,7 +56,7 @@ public class BookingDAOTest {
         if (deleteFile() || !f.exists()) {
             bookingService.makeBooking(b1);
         }
-        assertTrue(bookingService.delete(b1.getId()));
+        assertTrue(bookingService.deleteById(b1.getId()));
     }
 
     @Test
