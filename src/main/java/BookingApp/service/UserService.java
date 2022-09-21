@@ -19,6 +19,9 @@ public class UserService {
     }
 
     public boolean save(User user) {
+        getAllUsers().stream()
+                .filter(myUser -> myUser.getId() == user.getId() && !myUser.equals(user))
+                .forEach(myUser -> user.setId(getAllUsers().size() + 1));
         return userDao.save(user);
     }
 

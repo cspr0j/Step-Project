@@ -23,11 +23,6 @@ public class UserController {
     }
 
     public boolean saveUser(User user) {
-        getAllUsers().stream()
-                .filter(myUser -> myUser.getId() == user.getId() && !myUser.equals(user))
-                .forEach(myUser -> {
-                    user.setId(getAllUsers().size() + 1);
-                });
         return userService.save(user);
     }
 
@@ -70,9 +65,8 @@ public class UserController {
 
             bookings.stream()
                     .filter(booking1 -> booking1.getId() > 1 && bookingId == 1)
-                    .forEach(myBooking -> {
-                        myBooking.setId(myBooking.getId() - 1);
-                    });
+                    .forEach(myBooking -> myBooking.setId(myBooking.getId() - 1));
+
             user.setBookings(bookings);
             saveUser(user);
 

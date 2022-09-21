@@ -532,3 +532,11 @@
 21/09/2022 09:27:31 [ERROR] CustomLogger : File not found
 21/09/2022 09:27:31 [INFO] CustomLogger : A user saved or updated to the database.
 21/09/2022 09:30:46 [ERROR] CustomLogger : Booking not found
+21/09/2022 09:47:43 [ERROR] CustomLogger : Booking not found
+21/09/2022 09:48:15 [INFO] CustomLogger : A flight saved or updated to the database.
+21/09/2022 09:48:15 [INFO] CustomLogger : The seats capacity decreased for TK621 flight.
+21/09/2022 09:48:15 [INFO] CustomLogger : A booking saved or updated to the database.
+21/09/2022 09:48:15 [INFO] CustomLogger : A user saved or updated to the database.
+21/09/2022 09:48:21 [INFO] CustomLogger : The seats capacity increased for TK621 flight.
+21/09/2022 09:48:21 [INFO] CustomLogger : A booking removed from the database.
+21/09/2022 09:48:21 [INFO] CustomLogger : A user saved or updated to the database.
