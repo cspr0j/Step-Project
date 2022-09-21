@@ -11,7 +11,7 @@ public class BookingInfo {
         UserController userController = new UserController();
 
         try {
-            if (userController.getUser(user.getId()).isEmpty()) {
+            if (userController.getUser(user.getId()).isEmpty() || user.getBookings().isEmpty()) {
                 throw new BookingNotFoundException("Booking not found");
             }
             userController.getUser(user.getId()).get().getBookings()

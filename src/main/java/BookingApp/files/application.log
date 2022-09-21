@@ -528,3 +528,7 @@
 20/09/2022 22:01:18 [INFO] CustomLogger : A user saved or updated to the database.
 20/09/2022 22:01:18 [INFO] CustomLogger : A user saved or updated to the database.
 20/09/2022 22:01:18 [INFO] CustomLogger : A user saved or updated to the database.
+21/09/2022 09:27:31 [ERROR] CustomLogger : File not found
+21/09/2022 09:27:31 [ERROR] CustomLogger : File not found
+21/09/2022 09:27:31 [INFO] CustomLogger : A user saved or updated to the database.
+21/09/2022 09:30:46 [ERROR] CustomLogger : Booking not found
